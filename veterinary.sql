@@ -121,3 +121,15 @@ VALUES
 (8, 8, 150.00, '16:30:00'),
 (9, 9, 60.00, '14:45:00'),
 (10, 10, 40.00, '11:30:00');
+
+INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis, prescription, notes) VALUES 
+(1, 1, '2023-01-05 10:30:00', 1, 'Annual Checkup', 'None required', 'Healthy adult cat, good weight'),
+(2, 2, '2023-02-14 14:15:00', 2, 'Vaccination Update', 'Rabies Vaccine', 'Administered annual rabies vaccination'),
+(3, 3, '2023-03-10 09:00:00', 3, 'Limping on right front leg', 'Anti-inflammatory medication', 'X-ray shows mild sprain, recommend rest'),
+(4, 4, '2023-04-05 11:45:00', 4, 'Skin Allergy', 'Antihistamines', 'Allergic reaction to new food, switch to hypoallergenic diet'),
+(5, 5, '2023-05-20 13:30:00', 5, 'Dental Cleaning', 'Antibiotics for mild gingivitis', 'Completed dental cleaning, teeth in good condition'),
+(6, 6, '2023-06-15 10:00:00', 6, 'Eye Infection', 'Antibiotic eye drops', 'Conjunctivitis detected, apply drops twice daily'),
+(7, 7, '2023-07-08 15:20:00', 7, 'Flea Infestation', 'Flea treatment', 'Administered topical flea treatment, follow up in 2 weeks'),
+(8, 8, '2023-08-12 08:45:00', 8, 'Spaying Surgery', 'Pain medication', 'Successful spaying surgery, recovery going well'),
+(9, 9, '2023-09-25 16:10:00', 9, 'Vomiting and Diarrhea', 'Anti-nausea medication', 'Gastrointestinal upset, recommend bland diet for 3 days'),
+(10, 10, '2023-10-30 12:00:00', 10, 'Annual Vaccination', 'Distemper/Parvo Vaccine', 'Administered annual vaccines, all vitals normal');
