@@ -164,3 +164,10 @@ JOIN pets p ON o.ownerid = p.ownerid
 JOIN appointments a ON p.petid = a.petid
 WHERE o.ofirstname = 'Maria'
 GROUP BY o.ofirstname;
+
+SELECT a.name, COUNT(*) AS total_appointments 
+FROM animals a 
+JOIN appointments ap ON a.animalid = ap.animalid 
+GROUP BY a.name 
+ORDER BY total_appointments DESC 
+LIMIT 1; 
