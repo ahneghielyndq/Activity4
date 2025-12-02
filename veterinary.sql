@@ -96,3 +96,15 @@ VALUES
 (8, 3, 3, '2025-01-26 09:45:00', 'Ear Infection', 'Completed'),
 (9, 4, 2, '2025-01-28 08:30:00', 'Vaccination Booster', 'Completed'),
 (10, 5, 1, '2025-01-30 12:00:00', 'General Illness', 'Pending');
+
+INSERT INTO doctors (doctorid, dfirstname, dlastname, specialty, phone, email) VALUES
+(1, 'Maria', 'Santos', 'General Veterinarian', '987-654-3210', 'maria.santos@vetclinic.com'),
+(2, 'Antonio', 'Gonzales', 'Feline Specialist', '555-123-4567', 'antonio.gonzales@vetclinic.com'),
+(3, 'Felipe', 'Luna', 'Orthopedic Specialist', '111-222-3333', 'felipe.luna@vetclinic.com'),
+(4, 'Sofia', 'Reyes', 'Dermatology Specialist', '999-888-7777', 'sofia.reyes@vetclinic.com'),
+(5, 'Luis', 'Torres', 'Surgery Specialist', '123-555-7777', 'luis.torres@vetclinic.com'),
+(6, 'Carmen', 'Fernandez', 'Ophthalmology Specialist', '333-222-1111', 'carmen.fernandez@vetclinic.com'),
+(7, 'Robert', 'Chen', 'Neurology Specialist', '444-555-6666', 'robert.chen@vetclinic.com'),
+(8, 'Sarah', 'Johnson', 'Cardiology Specialist', '777-888-9999', 'sarah.johnson@vetclinic.com'),
+(9, 'James', 'Wilson', 'Dentistry Specialist', '222-333-4444', 'james.wilson@vetclinic.com'),
+(10, 'Emily', 'Davis', 'Emergency Care Specialist', '666-777-8888', 'emily.davis@vetclinic.com');
