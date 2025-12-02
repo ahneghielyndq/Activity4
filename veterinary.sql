@@ -146,3 +146,7 @@ WHERE pet_id = (
     FROM pets 
     WHERE name = 'Simba'
 );
+
+UPDATE doctors
+SET dlastname = 'Reyes-Gonzales'
+WHERE doctorid = 4;
