@@ -153,3 +153,6 @@ WHERE doctorid = 4;
 
 SELECT DISTINCT species
 FROM pets;
+
+SELECT SUM(amount) AS total_sales
+FROM invoices;
