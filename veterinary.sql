@@ -83,3 +83,16 @@ INSERT INTO animals (animalid, name, species, breed, dateofbirth, gender, color,
 (8, 'Ruby', 'Dog', 'Bulldog', '2017-06-19', 'Female', 'Brindle', 8),
 (9, 'Onyx', 'Cat', 'Tuxedo', '2022-03-08', 'Male', 'Black/White', 9),
 (10, 'Coco', 'Dog', 'Labrador', '2019-12-25', 'Female', 'Chocolate', 10);
+
+INSERT INTO appointments (appointment_id, pet_id, vet_id, appointment_date, reason, status)
+VALUES
+(1, 1, 1, '2025-01-10 09:00:00', 'Annual Checkup', 'Completed'),
+(2, 2, 2, '2025-01-12 10:30:00', 'Vaccination', 'Completed'),
+(3, 3, 1, '2025-01-15 13:00:00', 'Skin Allergy', 'Cancelled'),
+(4, 4, 3, '2025-01-17 15:45:00', 'Deworming', 'Completed'),
+(5, 5, 2, '2025-01-20 11:15:00', 'Follow-up Checkup', 'Pending'),
+(6, 1, 3, '2025-01-22 14:00:00', 'Dental Cleaning', 'Completed'),
+(7, 2, 1, '2025-01-25 16:30:00', 'Limping/Leg Injury', 'Pending'),
+(8, 3, 3, '2025-01-26 09:45:00', 'Ear Infection', 'Completed'),
+(9, 4, 2, '2025-01-28 08:30:00', 'Vaccination Booster', 'Completed'),
+(10, 5, 1, '2025-01-30 12:00:00', 'General Illness', 'Pending');
