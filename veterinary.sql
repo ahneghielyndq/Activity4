@@ -133,3 +133,6 @@ INSERT INTO medicalrecords (recordid, animalid, recorddate, doctorid, diagnosis,
 (8, 8, '2023-08-12 08:45:00', 8, 'Spaying Surgery', 'Pain medication', 'Successful spaying surgery, recovery going well'),
 (9, 9, '2023-09-25 16:10:00', 9, 'Vomiting and Diarrhea', 'Anti-nausea medication', 'Gastrointestinal upset, recommend bland diet for 3 days'),
 (10, 10, '2023-10-30 12:00:00', 10, 'Annual Vaccination', 'Distemper/Parvo Vaccine', 'Administered annual vaccines, all vitals normal');
+
+ALTER TABLE owners
+ADD COLUMN RegisteredDate DATE;
