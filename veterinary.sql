@@ -38,3 +38,12 @@ CREATE TABLE doctors (
     email VARCHAR(100) 
 ); 
 
+CREATE TABLE invoices (
+ invoiceid INT PRIMARY KEY AUTO_INCREMENT,
+ appointid INT,
+ totalamount NUMERIC(10,2),
+ paymentdate TIME,
+ FOREIGN KEY (appointid) REFERENCES
+appointments(appointid)
+);
+
